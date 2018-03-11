@@ -1,6 +1,6 @@
 # surge-preview
 
-Publish static assets to surge and sets a status to github pull requests. Plays well with Drone, Circle or Travis CI.
+Publish static assets to surge and sets a status to Github pull requests. Plays well with Drone, Circle or Travis CI.
 
 ## CI Usage
 
