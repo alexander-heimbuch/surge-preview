@@ -1,0 +1,23 @@
+{
+  "name": "surge-preview",
+  "version": "1.0.5",
+  "description": "Publish static assets to surge and sets a status to github pull requests",
+  "main": "index.js",
+  "keywords": [
+    "surge",
+    "github"
+  ],
+  "author": "Alexander Heimbuch <npm@heimbu.ch>",
+  "license": "ISC",
+  "bin": {
+    "surge-preview": "cli.js"
+  },
+  "dependencies": {
+    "chalk": "2.3.2",
+    "ci-env": "1.5.2",
+    "lodash": "4.17.4",
+    "meow": "4.0.0",
+    "octonode": "0.9.2",
+    "surge": "0.19.0"
+  }
+}
