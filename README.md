@@ -30,6 +30,12 @@ You can specify any parameter as an atribute:
     --repo         Github repository, defaults to CI env
 ```
 
+__Notes__
+
+1. `surge-preview` is desigend as an optional CI step and will always exist with status 0 to keep following CI steps running.  
+
+2. In a CI environment don't add tokens or logins as direct parameters. Use CI environment to keep them as a secret.
+
 ## Remixes
 
 Install and use it as a package dependency: `npm install surge-preview --save` or `yarn add surge-preview`
