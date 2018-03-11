@@ -1,5 +1,7 @@
 # surge-preview
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alexander-heimbuch/surge-preview.svg)](https://greenkeeper.io/)
+
 Publish static assets to surge and sets a status to Github pull requests. Plays well with Drone, Circle or Travis CI.
 
 ## CI Usage
