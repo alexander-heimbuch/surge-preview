@@ -32,12 +32,12 @@ You can specify any parameter as an atribute:
 
 __Notes__
 
-1. `surge-preview` is desigend as an optional CI step and will always exist with status 0 to keep following CI steps running.  
+1. `surge-preview` is desigend as an optional CI step and will always exits with status 0 to keep the following CI steps running.  
 
-2. In a CI environment don't add tokens or logins as direct parameters. Use CI environment to keep them as a secret.
+2. In an CI aviod adding tokens or logins as parameters. Use CI environment variables to store them as a secret.
 
 ## Remixes
 
 Install and use it as a package dependency: `npm install surge-preview --save` or `yarn add surge-preview`
 
-All steps are asynchronous and returning a promise. Have a look at `steps/` to require github and surge functionality.
+All steps are asynchronous and will return a promise. Have a look at `steps/` to require github and surge functionality.

@@ -1,6 +1,6 @@
 {
   "name": "surge-preview",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Publish static assets to surge and sets a status to github pull requests",
   "main": "index.js",
   "keywords": [
